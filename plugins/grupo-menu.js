@@ -80,7 +80,6 @@ let menu = `
  
 ﹍
 
-
  *FECHA*
  *${week}, ${date}*
  *USUARIOS | USERS ➺ ${Object.keys(global.db.data.users).length}* 
