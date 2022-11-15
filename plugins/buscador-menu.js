@@ -68,19 +68,22 @@ let username = conn.getName(who)
 //user.registered = false
 
 let menu = `
-💗 *¡HOLA | HI!* ${username}
-╭━〔 *${wm}* 〕━⬣
-┃🎈🎈🎈🎈🎈🎈🎈🎈🎈
-┃✪ *EXPERIENCIA | EXP ➺ ${exp}*
-┃✪ *NIVEL | LEVEL ➺ ${level}*
-┃✪ *ROL ➺* ${role}
-┃✪ *GATACOINS ➺ $ ${money}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃✪ *FECHA*
-┃➺ *${week}, ${date}*
-┃✪ *USUARIOS | USERS ➺ ${Object.keys(global.db.data.users).length}* 
-┃🎈🎈🎈🎈🎈🎈🎈🎈🎈
-╰━━━━〔 𓃠 *${vs}* 〕━━━━⬣
+*¡HOLA | HI!* ${username}
+
+. •   ⌜ *${wm}* ⌟
+
+► *EXPERIENCIA | EXP ➺ ${exp}*
+► *NIVEL | LEVEL ➺ ${level}*
+► *ROL ➺* ${role}
+► *PHURCOINS ➺ $ ${money}*
+ 
+﹍
+
+ *FECHA*
+ *${week}, ${date}*
+ *USUARIOS | USERS ➺ ${Object.keys(global.db.data.users).length}* 
+
+╰    ⌜ *${vs}* ⌟
 
 ╭━〔 𝙈𝙀𝙉𝙐 𝘿𝙀 𝘽𝙐𝙎𝙌𝙐𝙀𝘿𝘼𝙎 〕━⬣
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
